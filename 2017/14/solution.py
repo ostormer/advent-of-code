@@ -1,4 +1,5 @@
 key = "hwlqcszp"
 
 for row in range(128):
-    pass
+    hash_input = f"{key}-{row}"
+    print(hash_input)
