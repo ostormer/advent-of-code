@@ -4,6 +4,17 @@ in_string = Path("2017/02/in.txt").read_text()
 
 lines = [[int(num) for num in line.split("\t")] for line in in_string.split("\n")]
 
+
+
+
+# del 1
+checksum = 0
+for line in lines:
+    checksum += max(line) - min(line)
+
+print(checksum)
+
+# del 2
 checksum = 0
 for line in lines:
     for a in line:

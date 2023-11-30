@@ -20,4 +20,3 @@ for i in tqdm(range(1, 50000001)):
     i += 1
 
 print(after_zero)
-
